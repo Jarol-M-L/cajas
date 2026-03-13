@@ -1,0 +1,187 @@
+.padre{
+  background-color: yellow;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns:repeat(6,1fr) ;
+  grid-template-rows: repeat(7,1fr);
+  grid-template-areas: "cj1 cj1 cj1 cj1 cj1 cj1"
+                       "cj2 cj2 cj3 cj3 cj4 cj4"
+                       "cj5 cj5 cj5 cj5 cj6 cj6"
+                       "cj7 cj7 cj8 cj8 cj8 cj8"
+                       "cj7 cj7 cj8 cj8 cj8 cj8"
+                       "cj9 cj9 cj10 cj11 cj11 cj11"
+                       "cj9 cj9 cj10 cj12 cj12 cj12" 
+                       "cj9 cj9 cj10 cj12 cj12 cj12";
+}
+.cj1{
+  background-color: rgb(0, 89, 255);
+  grid-area: cj1;
+}
+.cj2{
+  background-color: rgb(0, 89, 255);
+  grid-area: cj2;
+}
+.cj3{
+  background-color: rgb(0, 89, 255);
+  grid-area: cj3;
+}
+.cj4{
+  background-color: rgb(0, 89, 255);
+  grid-area: cj4;
+}
+.cj5{
+  background-color: rgb(0, 89, 255);
+  grid-area: cj5;
+}
+.cj6{
+  background-color: rgb(0, 89, 255);
+  grid-area: cj6;
+}
+.cj7{
+  background-color: rgb(0, 89, 255);
+  grid-area: cj7;
+}
+.cj8{
+  background-color: rgb(0, 89, 255);
+  grid-area: cj8;
+}
+.cj9{
+  background-color: rgb(0, 89, 255);
+  grid-area: cj9;
+}
+.cj10{
+  background-color: rgb(0, 89, 255);
+  grid-area: cj10;
+}
+.cj11{
+  background-color: rgb(0, 89, 255);
+  grid-area: cj11;
+}
+.cj12{
+  background-color: rgb(0, 89, 255);
+  grid-area: cj12;
+}
+.cir{
+    background-color: rgb(16, 192, 13);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.cir2{
+     background-color: rgb(16, 192, 13);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    top: -45px;
+    left: 200px;
+}
+.peq1{
+  background-color: black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+
+}
+.peq2{
+  background-color: black;
+  border-radius: 50%;
+   width: 25px;
+  height: 25px;
+  position: relative;
+  top: -5px;
+  left: 40px;
+
+}
+.peq3{
+  background-color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 10px;
+  position: relative;
+  top: 10px;
+  left: 25px;
+
+}
+.ore1{
+  background-color: aliceblue;
+  border-radius: 50%;
+  width: 21px;
+  height: 45px;
+  position: relative;
+  top: -70px;
+  left: -15px;
+
+}
+.ore2{
+   background-color: aliceblue;
+  border-radius: 50%;
+  width: 21px;
+  height: 45px;
+  position: relative;
+  top: -115px;
+  left: 77px;
+
+
+}
+.pe1{
+    background-color: black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+
+}
+.pe2{
+    background-color: black;
+  border-radius: 50%;
+   width: 25px;
+  height: 25px;
+  position: relative;
+  top: -5px;
+  left: 40px;
+
+
+}
+.pe3{
+   background-color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 10px;
+  position: relative;
+  top: 10px;
+  left: 25px;
+
+}
+.or1{
+  background-color: aliceblue;
+  border-radius: 50%;
+  width: 21px;
+  height: 45px;
+  position: relative;
+  top: -70px;
+  left: -15px;
+
+
+}
+.or2{
+   background-color: aliceblue;
+  border-radius: 50%;
+  width: 21px;
+  height: 45px;
+  position: relative;
+  top: -115px;
+  left: 77px;
+
+}
